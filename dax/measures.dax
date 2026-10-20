@@ -1,0 +1,132 @@
+// 43 measures in the saved Power BI model. Home table: zomato.
+// Reference definitions: add each measure separately in Power BI Desktop.
+
+Listings =
+DISTINCTCOUNT(zomato[RestaurantID])
+
+Countries =
+DISTINCTCOUNT(zomato[Country])
+
+Cities =
+DISTINCTCOUNT(zomato[City])
+
+Total Votes =
+SUM(zomato[Votes])
+
+Votes per Listing =
+DIVIDE([Total Votes],[Listings])
+
+Delivery Listings =
+COALESCE(CALCULATE([Listings], KEEPFILTERS(zomato[Has_Online_delivery] = "Yes")), 0)
+
+Delivery Coverage =
+DIVIDE([Delivery Listings],[Listings])
+
+Booking Listings =
+CALCULATE([Listings],KEEPFILTERS(zomato[Has_Table_booking]="Yes"))
+
+Booking Coverage =
+DIVIDE([Booking Listings],[Listings])
+
+Engaged Listings =
+CALCULATE([Listings],KEEPFILTERS(zomato[Votes]>=100))
+
+Engaged Share =
+DIVIDE([Engaged Listings],[Listings])
+
+Delivery Gap =
+COALESCE(CALCULATE([Listings], KEEPFILTERS(zomato[Has_Online_delivery] = "No"), KEEPFILTERS(zomato[Votes] >= 100)), 0)
+
+No Vote Share =
+DIVIDE(CALCULATE([Listings],KEEPFILTERS(zomato[Votes]=0)),[Listings])
+
+Cuisine Reach =
+DISTINCTCOUNT(RestaurantCuisine[RestaurantID])
+
+Cuisine Types =
+DISTINCTCOUNT(RestaurantCuisine[Cuisine])
+
+Cuisine Top 10 =
+VAR t = TOPN(10,ALLSELECTED(RestaurantCuisine[Cuisine]),[Cuisine Reach],DESC,RestaurantCuisine[Cuisine],ASC) RETURN IF(CONTAINS(t,RestaurantCuisine[Cuisine],SELECTEDVALUE(RestaurantCuisine[Cuisine])),[Cuisine Reach])
+
+City Top 10 =
+VAR t = TOPN(10,ALLSELECTED(zomato[City]),[Listings],DESC,zomato[City],ASC) RETURN IF(CONTAINS(t,zomato[City],SELECTEDVALUE(zomato[City])),[Listings])
+
+Gap Top 10 =
+VAR t = TOPN(10,ALLSELECTED(zomato[City]),[Delivery Gap],DESC,zomato[City],ASC) RETURN IF(CONTAINS(t,zomato[City],SELECTEDVALUE(zomato[City])),[Delivery Gap])
+
+City Share =
+DIVIDE([Listings],CALCULATE([Listings],ALLSELECTED(zomato[City])))
+
+City Rank =
+RANKX(ALLSELECTED(zomato[City]),[Listings],,DESC,Dense)
+
+India Median Cost INR =
+CALCULATE(MEDIAN(zomato[Average_Cost_for_two]),KEEPFILTERS(zomato[CountryCode]=1))
+
+Missing Cuisine =
+CALCULATE([Listings],KEEPFILTERS(zomato[Cuisines]=""))
+
+Rating One =
+CALCULATE([Listings],KEEPFILTERS(zomato[Rating]=1))
+
+Active Selection =
+SELECTEDVALUE(zomato[Country],"Multiple / all countries") & " | " & SELECTEDVALUE(zomato[City],"Multiple / all cities")
+
+Context Summary =
+FORMAT([Listings],"#,0") & " listings | " & FORMAT([Delivery Coverage],"0.0%") & " offer delivery | " & FORMAT([Delivery Gap],"#,0") & " have 100+ votes without delivery"
+
+Average Source Rating =
+AVERAGE(zomato[Rating])
+
+Average Rating With Votes =
+CALCULATE([Average Source Rating], KEEPFILTERS(zomato[Votes] > 0))
+
+Four Plus Rating Listings =
+CALCULATE([Listings], KEEPFILTERS(zomato[Rating] >= 4))
+
+Four Plus Rating Share =
+DIVIDE([Four Plus Rating Listings], [Listings])
+
+Zero Vote Listings =
+CALCULATE([Listings], KEEPFILTERS(zomato[Votes] = 0))
+
+Delivery Gap Share of Engaged =
+DIVIDE([Delivery Gap], [Engaged Listings])
+
+Delivery Gap Share of Listings =
+DIVIDE([Delivery Gap], [Listings])
+
+Engaged Delivery Listings =
+COALESCE(CALCULATE([Listings], KEEPFILTERS(zomato[Votes] >= 100), KEEPFILTERS(zomato[Has_Online_delivery] = "Yes")), 0)
+
+Engaged Delivery Coverage =
+DIVIDE([Engaged Delivery Listings], [Engaged Listings])
+
+Both Services Listings =
+CALCULATE([Listings], KEEPFILTERS(zomato[Has_Online_delivery] = "Yes"), KEEPFILTERS(zomato[Has_Table_booking] = "Yes"))
+
+Both Services Share =
+DIVIDE([Both Services Listings], [Listings])
+
+Neither Service Listings =
+CALCULATE([Listings], KEEPFILTERS(zomato[Has_Online_delivery] = "No"), KEEPFILTERS(zomato[Has_Table_booking] = "No"))
+
+India Positive Cost Listings =
+CALCULATE([Listings], KEEPFILTERS(zomato[CountryCode] = 1), KEEPFILTERS(zomato[Average_Cost_for_two] > 0))
+
+India Median Positive Cost INR =
+CALCULATE(MEDIAN(zomato[Average_Cost_for_two]), KEEPFILTERS(zomato[CountryCode] = 1), KEEPFILTERS(zomato[Average_Cost_for_two] > 0))
+
+India Average Positive Cost INR =
+CALCULATE(AVERAGE(zomato[Average_Cost_for_two]), KEEPFILTERS(zomato[CountryCode] = 1), KEEPFILTERS(zomato[Average_Cost_for_two] > 0))
+
+City Delivery Coverage Index =
+DIVIDE([Delivery Coverage], CALCULATE([Delivery Coverage], ALLSELECTED(zomato[City])))
+
+City Vote Engagement Index =
+DIVIDE([Votes per Listing], CALCULATE([Votes per Listing], ALLSELECTED(zomato[City])))
+
+Zero Cost Listings =
+CALCULATE([Listings], KEEPFILTERS(zomato[Average_Cost_for_two] = 0))
+
