@@ -1,0 +1,4 @@
+*.pbix binary
+*.csv text eol=lf
+*.md text eol=lf
+*.dax text eol=lf
