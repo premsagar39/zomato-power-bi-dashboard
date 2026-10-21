@@ -10,14 +10,9 @@
     "sha256": "fa10bc19f9069781adf24bf9f11730a4099ff1cbbbd0f49e03bf376a627c71d3"
   },
   {
-    "path": "README.md",
-    "bytes": 4438,
-    "sha256": "5ca24523afd6013ae6ed3696aae7f357563b94d9ffcb79a1c542dcd37527d42b"
-  },
-  {
     "path": "dashboard/Zomato_Insights.pbix",
-    "bytes": 460947,
-    "sha256": "cd6978a0593e80ce07fc36cd9b7b36b58a6a13f793d95014ae4ad1936bd901d6"
+    "bytes": 605523,
+    "sha256": "c72b792f35c74322da338531a3c0f5e32ba8bcf570e1b7317669c2c6a4e86e5b"
   },
   {
     "path": "data/RestaurantCuisine.csv",
@@ -35,6 +30,11 @@
     "sha256": "3e992f31c79eacb4d3255cc22387296fe53236a65be3362a3153997e8e97eebc"
   },
   {
+    "path": "docs/dashboard-controls.md",
+    "bytes": 6373,
+    "sha256": "64f75e3773fa048c19574b86e5d73e9d619d6509a76a47c8324754dea7289946"
+  },
+  {
     "path": "docs/data-dictionary.md",
     "bytes": 2101,
     "sha256": "c01b5d7aff37249efb44a6ceb4ab034c7b29ca944d16c22de706f939b8e2aea4"
@@ -48,5 +48,960 @@
     "path": "docs/validation.md",
     "bytes": 1819,
     "sha256": "530150341476ca92b43b7fb9cba04026e8b6a8c07365b84dd1f9e0a210cf3efd"
+  },
+  {
+    "path": "powerbi/themes/Dark.json",
+    "bytes": 644,
+    "sha256": "c4cb1408123cdaeccb76639290da3bfa3d8f9c9c3359df4e52bce5b8b4046ac3"
+  },
+  {
+    "path": "powerbi/themes/Light.json",
+    "bytes": 645,
+    "sha256": "f1fb7b74c130aaf668b190ac237b5f0caf12b3f63389d927e6e184d0918f4628"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/12eba12c5c1c5a1281a0.bookmark.json",
+    "bytes": 1324,
+    "sha256": "17a13b5a9a86d9ff2632dfc0d7042f14af882064f4aac2748dd2bee64f2989e2"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/5e13cf5873d35e57978b.bookmark.json",
+    "bytes": 912,
+    "sha256": "b4859104ba9695384762155bdfaebbaa08d94ba3d3d5d03ce690c1b39b23b30e"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/7ae4b99a891859b8be32.bookmark.json",
+    "bytes": 1837,
+    "sha256": "e970c055c0f34412fe477148ee90bac515889787ccf49f3c0d64b001f72ab6b8"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/995bb6bbb79857b8bb8e.bookmark.json",
+    "bytes": 1279,
+    "sha256": "c4aef27c35320df309684d73487043f15e10bdf5d5196fc3dae847aacdb6d8dd"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/b185ecf4006f564a9d1c.bookmark.json",
+    "bytes": 1837,
+    "sha256": "92f0c96df3e8d1762f8844324a46c3711caf53bc3615c96d30a0df603afc9aed"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/b55d16dd794d5651afbb.bookmark.json",
+    "bytes": 915,
+    "sha256": "9d3d7f9b49678de7c35be28c01f597bec2200f78dce0543123f455bed643f0d0"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/b60ba8b72de05115a89e.bookmark.json",
+    "bytes": 1837,
+    "sha256": "c6ef26895892b7967b7e02a535c94d29979120ecc13d3c9ee636d39ac481cf46"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/b747d519815d5a49bf71.bookmark.json",
+    "bytes": 1279,
+    "sha256": "8c79b483569156a6de0e067bc54c00f927caa02fd9d8da2f05973325e067fac8"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/b97744ba8bab526e9c7a.bookmark.json",
+    "bytes": 1323,
+    "sha256": "394578a76b5cb851bcb85605fb0965be4f706a6e3cfc52fdb44497be3a1e9062"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/bed0ccc0984d5e1f986e.bookmark.json",
+    "bytes": 1279,
+    "sha256": "4973f5dd39d2ca1c32c5ac4ce586721d605568cb43343b8ac0053a875369b8aa"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/bookmarks.json",
+    "bytes": 1000,
+    "sha256": "d8d055b1dda6ee00f25bd2928ec19460554fca9fd38f063ca1e10df2c0134ffc"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/d5a9874380ec58b3923e.bookmark.json",
+    "bytes": 1279,
+    "sha256": "950c7979af927589d5791d73b83d84bf8bac1a048ca7b0a03433e5aca6a5cec9"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/d7afe48ce2835ace9130.bookmark.json",
+    "bytes": 1279,
+    "sha256": "3a45fd0f58c1af880159bd72860dc52ca4839dc0c5c8273d54f6ee908a2df464"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/e7ec91e5b7705e4089a2.bookmark.json",
+    "bytes": 1327,
+    "sha256": "5aba46486cb39d946e4266960cca1727d2823cd549f9413e4e9bca8f75d60c5f"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/e8865ecd258d5f78925c.bookmark.json",
+    "bytes": 1321,
+    "sha256": "92e55afde10199fe7146203ac4a6da89b98f847ffbe3448e64a38dda93f0496a"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/e9fea93e1a555983910e.bookmark.json",
+    "bytes": 1837,
+    "sha256": "aeca82b7d975bf5e52d7f9eaf05e9d515161a12d50f509080f308ab0f472b7ad"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/bookmarks/fc40d6b3bc2f5b7b81ea.bookmark.json",
+    "bytes": 1837,
+    "sha256": "2a7926345ba59a890f33a12c8b8fcd79782fd1017a6c453b23a1661ca11b2cc0"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/detail/page.json",
+    "bytes": 1766,
+    "sha256": "030af19986cf47971655f328423111c5307d4970f7c40ffe75269e393c8eb749"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/detail/visuals/096b55d9e6fa5fcb8a94/visual.json",
+    "bytes": 6783,
+    "sha256": "3f380556aa5183658a11357b4cc631eb4e8317cc55677f6231fa9de0c87a0668"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/detail/visuals/3b6bb63ea8b4533882b6/visual.json",
+    "bytes": 3001,
+    "sha256": "22f9eb7fb63c67f9dfbd40b91a0b102bf9e0cb0d32762e35cbae1a43631fae59"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/detail/visuals/664d41877033589098cf/visual.json",
+    "bytes": 11668,
+    "sha256": "3a3a30d24f4efe911b63f397f65a5449d46b4e7ad3d2f88437478d7fc6c2e219"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/detail/visuals/679c47d86d40525daaa5/visual.json",
+    "bytes": 2666,
+    "sha256": "9f0799f70966967e544996e1248b22acab61278e9c5f42b83dcc447d1356dadb"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/detail/visuals/89cfc3514a5653f59331/visual.json",
+    "bytes": 5524,
+    "sha256": "12b7b5eca7e9508be13a0c12e121b40ea69f9e8323b30adebc86f9f0a6afdb5e"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/detail/visuals/8a76726cc5bb525f9eb5/visual.json",
+    "bytes": 6737,
+    "sha256": "ca787c784dba34485d9ce1e3b23196faf9f512cd054517c3086bca976f5cbb48"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/detail/visuals/ee87bbc03aab5f15ae36/visual.json",
+    "bytes": 6783,
+    "sha256": "d0984dc73bd040e9f740544dcb7ebd67d8248e9c790310cc385bd855e44f0b3e"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/pages.json",
+    "bytes": 385,
+    "sha256": "256c7781fa1b96fed04118dabbae7b2a27761d237f6a8bc895f64699a939f89b"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/page.json",
+    "bytes": 3466,
+    "sha256": "164fc5a27156af4d70bd21fce776a073764c94a286ab8ba1bfef205af6866418"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/00b7894ba9b8471f9130/visual.json",
+    "bytes": 11652,
+    "sha256": "6b0a876da5ef6d51c865f33efef8e2c35d025a3c916b6c1dac24f885d720426e"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/015841dc2e77488aa564/visual.json",
+    "bytes": 7377,
+    "sha256": "036133a7f073c079035d1e3ef86dbca60f3106756c9aead012495c415ee03dfa"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/02ebaa93cdd45f2e9835/visual.json",
+    "bytes": 5718,
+    "sha256": "0288b62733e77bd45909c4c65dfafc9e701d471dc2d1118c8c5b2bc46fb55bbc"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/0536b706019b5320a33d/visual.json",
+    "bytes": 16994,
+    "sha256": "5d84c177fc1ecdb3de3c1377c71643bc72026ddd938e3c97f8ed7e4a951ea943"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/153f133cd4f85cc386fd/visual.json",
+    "bytes": 5734,
+    "sha256": "267c370c4c22b8ccfa1b6d291b1c452e0fc64e28802aba9d096d3561674b4e0b"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/190472a1674458b5b81c/visual.json",
+    "bytes": 5718,
+    "sha256": "9948e13c4a0a670a4770b0aa0981fad2dcf23e7b0c0c399da030052e21a80d58"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/1959886f7a6d5c5fa22e/visual.json",
+    "bytes": 2666,
+    "sha256": "2eb40b78096e02bd2914cc15bfca2faf330d3263c05f7ddda083d758d254483f"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/196b1813e8195ae0817e/visual.json",
+    "bytes": 5771,
+    "sha256": "63dc763f765312d3943e3d091c9860f23281e3d0d455985da6bb4b859e6eb48f"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/22b631361c744e4fa286/visual.json",
+    "bytes": 13921,
+    "sha256": "12c44bf1124a682f8e6dda27a802b165b9e59a0d47fad0cdd4cf3dfca669fec3"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/2605b34aee2f4711a495/visual.json",
+    "bytes": 6987,
+    "sha256": "1c65f44adb2f11ef28e1328eb7306fa4692c0fd290b2d11261b26175e8883e53"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/2f139ee8cdf14654ab70/visual.json",
+    "bytes": 7440,
+    "sha256": "725aeb2aea2a266ba776679935e907944fbb8659c6b18b65d59d5a6ac155c2df"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/378fe313e0ad5e3aa4d5/visual.json",
+    "bytes": 5742,
+    "sha256": "ecf88b6cb9aa0410f4ebfd197fc443a17002456542624371ed3c8ce296306c69"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/4ac8ed62f6814fda8568/visual.json",
+    "bytes": 7392,
+    "sha256": "0cc089677d602af2869af312f20b6324f570cbc18bfcef34d9587fce6905d8a0"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/57d3de54a9005959ae00/visual.json",
+    "bytes": 2668,
+    "sha256": "8f5be72b9b34037949149e901626307e1d07ba98085b917b069183538d1392f6"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/60ab2135d21e5b18aab2/visual.json",
+    "bytes": 5718,
+    "sha256": "7b8629a324e0f03dd5078ec621fbaceb4887f18902d9c1ac4489dff8bef7b384"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/66b6aa8a76ca5bc1bdbf/visual.json",
+    "bytes": 5716,
+    "sha256": "dd9892596d4d5445e86650e6cfeb94e777f38c5eae1d599f1053e23a6b89cd1d"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/69cc06dcd7f44f089310/visual.json",
+    "bytes": 6971,
+    "sha256": "22850853c4c3579da8012133d6612303da8579c990d3df74a63d72f657a1d5e0"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/70f4481bd5e05c04a4bc/visual.json",
+    "bytes": 5721,
+    "sha256": "f354f9bed39f61d47461813c506e42d63549167f0bfeeb73d96ce8e86f0b12dd"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/7127578840935b738b20/visual.json",
+    "bytes": 16999,
+    "sha256": "11f02ce5fb5b10899cddbe2c9250327b75d29cf0478fdc9fa7a55757bf0abb66"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/747aee1c29e35ad5a079/visual.json",
+    "bytes": 5714,
+    "sha256": "65ef3e8084a23cb578ec489af84d7b4aa23fbf50b925c913d6c88f82fb63cd12"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/7831eb8b86745f82be32/visual.json",
+    "bytes": 5747,
+    "sha256": "adc41640af271f0f43d75b1ba3cefbb93ed00d974ddfd401cf908fcbf630ee22"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/826ee37bbe7b585197e8/visual.json",
+    "bytes": 2704,
+    "sha256": "3ca57aee3c373382ecc550fbd0c8eee21722a96f6366ad70e72d2eec8e696fc7"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/87f21d99f70853bf9d43/visual.json",
+    "bytes": 5745,
+    "sha256": "05862a9ce8520579f82adcc2aa0ee9048d4ae0d98d867d34e9a983bab00785e4"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/9a5ecd73698f50678065/visual.json",
+    "bytes": 5722,
+    "sha256": "831bb602cbc71c19876c3c937449af3ce5ee924ef6cf6668b687afcdc120e179"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/9fa67b06e60355ab9076/visual.json",
+    "bytes": 13946,
+    "sha256": "68a7501c67d40c10b016711cc7435f2d2456608ca7b5446e568f466b075f0b7c"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/a2a351b0e3ed491eae94/visual.json",
+    "bytes": 11054,
+    "sha256": "7d1861af037e49678a4bbbd4424c5bd3802e164b3c08598d45bb6ffcba0fbbf9"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/a540978dbf4f53d0a6a6/visual.json",
+    "bytes": 2731,
+    "sha256": "68368ee4ade49d8c415e5282aa3e0d28cb3a0a6abe9358f1e1a4d0350cc97f0d"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/a8c9cd3aaac84b9b9cc5/visual.json",
+    "bytes": 6930,
+    "sha256": "e6dedcc1ad00f5a115ea9e7ccbaabeee6df5327357b8b98f43fda28af1dd6ea7"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/b1fd550421965c1c902b/visual.json",
+    "bytes": 5543,
+    "sha256": "45f59fc7338abff1503e98b0ea2fc77a877a5344f6886a6ff94318d0f53726c5"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/c5d4e3e72fb25dfb893e/visual.json",
+    "bytes": 3009,
+    "sha256": "d48fc3c7248d815462d216436f82a714b52c159f61f455654ef719e046a24357"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/ca8632046fe546028c42/visual.json",
+    "bytes": 7406,
+    "sha256": "fdd6c63fb171e6cdef86e622c76397018a0aa19c7cde15f8dc5a753f4d83e7e2"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/cb4bc396534b4c4f9988/visual.json",
+    "bytes": 6965,
+    "sha256": "73b065332004790e83dec56e8c53a06a4e3a92a8773660659f3293038bb34857"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/cc4f1b4ca292534186b3/visual.json",
+    "bytes": 2988,
+    "sha256": "e2f83359327eae94a303e5486c18905c4667dcaa9da805fd7729b9f642fab18c"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/d54379e96bf24b469c58/visual.json",
+    "bytes": 6923,
+    "sha256": "49aee650c582288e58072ed2472ebfc593dd5c8d43cfc77a3cd1d6288d0fc52b"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/d9dc8d3dcdc35294b114/visual.json",
+    "bytes": 16996,
+    "sha256": "4ca0fc391c8efa6719282c7b8bf5bcc016f0eb14738da7afb6fbf89a3740c6e1"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/fb52a5fec12f560f88cf/visual.json",
+    "bytes": 5719,
+    "sha256": "1c10ce4fa50246cffc90d68dcc35c2897980e93ec09a31df1e38108370d3f96f"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced1/visuals/fd2620a82d025aa8a02e/visual.json",
+    "bytes": 5740,
+    "sha256": "75b20d4715c644349c42fdc4810885a3bc137e0b63b72a8eb3d711d46293a555"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/page.json",
+    "bytes": 1340,
+    "sha256": "3882fdb0911f51196dcabe6fa02f3fed599c4a9927350bcfa1d5004036a6ac8e"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/01d4892cec65434481e5/visual.json",
+    "bytes": 7436,
+    "sha256": "3a76201da26baf1f06e46577e00499beeb5df636809c2430ea425d2f1b0f4804"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/0c33c140cce9563b819c/visual.json",
+    "bytes": 3000,
+    "sha256": "6c34a7705d16e06619a8d6620319964d7f71a2ec813cd70ee3e784b62783a902"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/31bd48176f8455889185/visual.json",
+    "bytes": 5735,
+    "sha256": "92873b5ed51a012ba80f5907441e399839a9c98e755cc43fe27982769445c51f"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/3542ef1be84356348f0c/visual.json",
+    "bytes": 5543,
+    "sha256": "8ebf702b6ab38532a51801dec0722e3f87780da50124713f9f49d98e3df6fc04"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/441b7e65e1ea59d18f6a/visual.json",
+    "bytes": 2731,
+    "sha256": "a0d12b806d77d65775734c2752192e0f175f5192f1e3eec88c1226048de386ca"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/4b43f818bddc41deb671/visual.json",
+    "bytes": 14071,
+    "sha256": "11a6c7991ad03a49fb2094a29b40e67a5914c47fb0893e6b8d76148e7689be2a"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/4dc70baa0acf51de9c35/visual.json",
+    "bytes": 2666,
+    "sha256": "518a95eec4b1c925c6abbfd93bc8637be55209c76c8c51f20cec26f1d8bb1026"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/6ebdbe5ac9d640ecad8e/visual.json",
+    "bytes": 13254,
+    "sha256": "6943f26ce09ccb2f18994969bffb45096ab0aeae5c07a114bb15fd1cc1204368"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/779178539a8557b4b080/visual.json",
+    "bytes": 5747,
+    "sha256": "05d371762796e758b9c6fd9b90a78f7f0d29db28c37bd8eac6aca361d36b2ac7"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/7ea9d3772a5b5cc49a7b/visual.json",
+    "bytes": 5718,
+    "sha256": "9b971070ed6fe88c886d4f27b51317d47c15ba03f7768337825da3151c9e18f3"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/80b934f1608f5d7aab6b/visual.json",
+    "bytes": 5742,
+    "sha256": "fce7395b4a810d1f878d5f4ac02f3c3fe3e57d80b27c4ca736f4a4f5baffe48d"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/884ba0f4a3165d719d40/visual.json",
+    "bytes": 2668,
+    "sha256": "1703ab20efa81afb9df357d53b58c506761a5e2a22470fd336b5dc7efa3290f6"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/a19888fed010556c9f40/visual.json",
+    "bytes": 5770,
+    "sha256": "9d60fa3cf69509837f72282a29b73a28cd39d48aaea4a82a1191bb5466b92942"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/a56c1b06dce25d2baaf8/visual.json",
+    "bytes": 5745,
+    "sha256": "640b7c2f60a28fe5cf43896a20547bc0049d8e751cc5a505448fbb08d531a5f6"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/a93608e24ff857939323/visual.json",
+    "bytes": 2704,
+    "sha256": "20858ea50c55149128531ae6d858901ad399c32e3f8b747b6530d3c2b6f4be4a"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/abd5da3ff096426896e7/visual.json",
+    "bytes": 7472,
+    "sha256": "0272ae8b2086ab058663686631f8c1c5d895e801a35daaee9958a18eba7aaa70"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/b26624c2c1dd49a5b47e/visual.json",
+    "bytes": 6960,
+    "sha256": "c994b20c55040ce51d58728033319cb902a0c3d8cb47d2a7555ad87f3b79b4c3"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/b403eb89196d525bac43/visual.json",
+    "bytes": 5718,
+    "sha256": "831e3508ac830e8c0f22e0cffe903ee2b5b362ddcd92e4299d496ffe3891e1ca"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/b63326efa33a4015b1e3/visual.json",
+    "bytes": 6961,
+    "sha256": "92075d7abfaa1cb8598e06a2d74e36c9ca1666962e984a41032568d3d9140a85"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/cb47e5cc96fe46af89a5/visual.json",
+    "bytes": 7377,
+    "sha256": "23f1b69c123253dbba64dfc743732cae06845820e65925eb5e1486d8c2877265"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/d48970740d754061af47/visual.json",
+    "bytes": 6930,
+    "sha256": "1e48bc61fb845904634a9414ffabe2627e54f3c3e41ebfcd5a34a6f49663acee"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/e075418b52565d7baad2/visual.json",
+    "bytes": 2988,
+    "sha256": "e969acfc4d72bee356d4c2edb50788757adeb6d6b1bb0fe15a1e9209d713d4fd"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/fa7914f8c50e5f2b85fe/visual.json",
+    "bytes": 5740,
+    "sha256": "b064ebf8d2fcfa9c727486ad077a3c458f9464c554f35a0c21aa5b8529be0a62"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced3/visuals/fd5cf15cc57049368678/visual.json",
+    "bytes": 7406,
+    "sha256": "ba061ed6bca6baeac945a39a31a95823a0aa3b2388638dea4d0703ac71cbcdd6"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/page.json",
+    "bytes": 4851,
+    "sha256": "b615495c0e39aa02d4e905f76eb8616598c8809731cbeb94a7a97d0dd22331d7"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/0148c619dbeb53f499c3/visual.json",
+    "bytes": 5718,
+    "sha256": "450a6891310bded9a63c1c7c4262b4b068e840b2103831957e4388f4798e0b97"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/1a8aa9fcdd425879a4f0/visual.json",
+    "bytes": 2666,
+    "sha256": "52535c562c657ff1ad2307ab80531d5e7350db1de604182ae3eba24f885503d8"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/1b4a372c3fe64664a284/visual.json",
+    "bytes": 12765,
+    "sha256": "b2a9334e2ea2dd7d94f2b70d4d0b47e8f4e0e96754144406ca3d41ef3534b530"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/24d1df4c8ec65e47835c/visual.json",
+    "bytes": 6936,
+    "sha256": "01c7cc5719bcdb316caf4431c7c7b4cea004c0c28741b8e8da724131532e0a6d"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/277a28858bf5541bb052/visual.json",
+    "bytes": 5740,
+    "sha256": "26003c7b0f9ff5a75157efd17208f36b29baf61e5560ed3ecfeab1b7d593f8ae"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/28ebe9b2795d4e59a8f1/visual.json",
+    "bytes": 11710,
+    "sha256": "4347b53f60c7241a7fe09bdc462e09880a756a0d93c5b075af74be6f4fb7396e"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/3f054feda7f051a5aa82/visual.json",
+    "bytes": 5734,
+    "sha256": "de6798f7595f3d1e20454785ec4b83f6dc5f943c375f723099009e77f1e919f7"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/3f5a395fcf684799970c/visual.json",
+    "bytes": 6965,
+    "sha256": "be441186a2647e2ccfd5351ce39e5536696d7bea86c76af5a4c27a4e4931baff"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/3fabfe6c75eb480386c7/visual.json",
+    "bytes": 7040,
+    "sha256": "3ccd3af972c9c9cb9546ca1bd941b20e9cc2664af64f389ca4c7af80838204fe"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/3fbbbc7ee64b40c2848b/visual.json",
+    "bytes": 7377,
+    "sha256": "e86237869d773638c22c4b9e5df32a6e3697ca29cb3a8199b98f5e32f0f637b4"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/4d15a1e5d3bc454db1e0/visual.json",
+    "bytes": 11663,
+    "sha256": "2c207168d4a7eda66fe853304b68fbb05de1b5402ad75309ad5d3a1e862b35bb"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/52d0faeda24c4439bd54/visual.json",
+    "bytes": 6956,
+    "sha256": "901fc7ba4f223d480ffc885f2e8be91b9f66e30f9174673f0d40f54faf9a4845"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/56c8ae5dd855439e8d42/visual.json",
+    "bytes": 6933,
+    "sha256": "d15da500ec7dc7b47816afcb8e70e1bb498f9ad868e35fc91992c3cc620b3784"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/5c8363cf42465c5d8e0a/visual.json",
+    "bytes": 2704,
+    "sha256": "e0693f227a1886220dd72b39a4ba27453ba12d0b559b8887dd1a2f10f1f00de3"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/6b5985e760795a07a1bc/visual.json",
+    "bytes": 5742,
+    "sha256": "f5241f5b4f1c9f649ecd8a6b9ef2ee25e52afa2ffca739fdcdf0712891da95d7"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/71c3a5c21b975c80b1b4/visual.json",
+    "bytes": 5747,
+    "sha256": "1a1a98ac5e7645fbe888b2aa3b071fae2f3df46fbc824d9c6c5124147009e556"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/725662a86ee25bb3afb1/visual.json",
+    "bytes": 5735,
+    "sha256": "77a06ac9ac3a2523ed10250da059b0903f774aa498afd8390ab107583e77ddad"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/73ee4b7d1ee25a0e8edf/visual.json",
+    "bytes": 5781,
+    "sha256": "64b9f1d954845f8dcfe690d0129a57c4b0984afaa3206103281aa437c7a3c291"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/7ee60dfcf099526685e5/visual.json",
+    "bytes": 3001,
+    "sha256": "dfbeb012bd11da2d7452b4540b6cf726bb638a6fda6e0c5b82414a860abcb477"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/a0ec86e92bef560db84c/visual.json",
+    "bytes": 2731,
+    "sha256": "33bc3ff1b03700c5ab27bb497287325a5a9a6a7549ebe2b5d43df13499854e4e"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/d1c84736eeaa5a0cb719/visual.json",
+    "bytes": 5718,
+    "sha256": "fef33aa600eb6e64b7e1a7079f5bed19d23f2d97873291b74aa534f86178649a"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/d524f4a2dd3a5bfa8d2f/visual.json",
+    "bytes": 2988,
+    "sha256": "687bc2322641ae20e923b3e93374580b28bbc41f15344841ab342c76ecec27b8"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/dd482f07015942438a51/visual.json",
+    "bytes": 7440,
+    "sha256": "93a30282142ea94adc83be8bdd385f51ea3d6fdcf886b965001a96812ede1a49"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/e711b90914565717bea5/visual.json",
+    "bytes": 2668,
+    "sha256": "fd5d056043781f45e9ad8a6bb96aa6acc83a0c10c2775b8be2804839448a334f"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/edc1a90369934909ac85/visual.json",
+    "bytes": 7392,
+    "sha256": "a36e5bf9b8658060ca10bd32cf5dfe34dd290c13b3a98983693a9ebf0dd16e46"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/ef7d7981f71d4ba8a7f0/visual.json",
+    "bytes": 11650,
+    "sha256": "70ba22c41b8efcdd21a079ebce52a6b580879e772a987fbb191626bbfdb8a5ff"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/efaafbf9b743486fb348/visual.json",
+    "bytes": 7406,
+    "sha256": "0873df5f0092a4053e5299a014e3d71b8735b012596c49c60786fe3fb4c26517"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced4/visuals/f4b4852af2e153169adf/visual.json",
+    "bytes": 5543,
+    "sha256": "96e60bd236f94425b5225711d8dcd8f6988e91d81b974cc35fba06f3b773c23b"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/page.json",
+    "bytes": 1596,
+    "sha256": "0dbfc8f56994d45e430296dbe64bae3163c5e8a16c475179c08dfff3c3285693"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/0771e7d1328a559cadca/visual.json",
+    "bytes": 5747,
+    "sha256": "e976f9c9528b5348b51d874d480ff7c9864edce4226c6c24434f3c7c64b4b93d"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/1379ec91cebb417e8cc9/visual.json",
+    "bytes": 7406,
+    "sha256": "9e1d3e48ead0faae61142b0fa1169e0ca350ec872dff4ce65143889c5527d6bf"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/187b69f2e497522dbd93/visual.json",
+    "bytes": 5745,
+    "sha256": "486fd940175e1b72d9d35957a808ff481f51a49d653f041489f5e09a17a5f275"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/1cc7304a273a43f192ff/visual.json",
+    "bytes": 7377,
+    "sha256": "ea7eb8c0471131d2b8c844a2913c1933a7ca40f76ad343984252454411b04361"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/1da1d38c3d014b059ec2/visual.json",
+    "bytes": 7392,
+    "sha256": "1d3d4ae459988fb29e66be11cd70edf64035f20a17185bb81d6fe38d4a5d206b"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/2a18c2c8faf04f888682/visual.json",
+    "bytes": 7440,
+    "sha256": "42fa1732269442e59497693fd118925780950f602b1dcd99057b86763112aa65"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/2e8204fe78685bd593fe/visual.json",
+    "bytes": 2996,
+    "sha256": "0aaa407c5bdb2c792bb135e0bb57805f33b56f96765676fe019ebcfd3a928bcf"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/45cabeb3633d526eb39b/visual.json",
+    "bytes": 2731,
+    "sha256": "5b82ed1cf42796306af9bc30e760377d7a0387da4110979d9891be1d8f343d8b"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/49faf6ecb9eb523b9725/visual.json",
+    "bytes": 5718,
+    "sha256": "5e106ad56c1059a8546b5ec6de0723983213bb1b6c539d4929b788c531314cfd"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/545141cd36d84c748a29/visual.json",
+    "bytes": 13977,
+    "sha256": "7e9946a9b2bd5179da9fdd991fe76327edbd7d6501ae2f9426d04121caf8adfe"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/7460a295c6ac4454b1be/visual.json",
+    "bytes": 11654,
+    "sha256": "c693e14b507452889444c8a0cfe6fac282a12cb9cdf1d706c08932ba1e89ee11"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/80249a5e4f7c5732885e/visual.json",
+    "bytes": 5776,
+    "sha256": "8b94ba61e8c1c69997410d39c6a2c7454de519f21079f4e0c0d53dd621898114"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/8c0a8ede9fa04f70b40e/visual.json",
+    "bytes": 6997,
+    "sha256": "9b5f10176cc894c80be66f2d9b2d1cea1f13e5cc7e1a48ea49677f27139af980"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/8c0a8ede9fa04f70b41e/visual.json",
+    "bytes": 6979,
+    "sha256": "780090068d886d16ffb33466de78204baa1f5dc73054f917400c34f9c67def81"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/8c0a8ede9fa04f70b42e/visual.json",
+    "bytes": 7010,
+    "sha256": "93a4c6ec726b6afe0f19bd8d423103aab4ccc4ea06c1e18c86e4ef1286129805"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/8c0a8ede9fa04f70b43e/visual.json",
+    "bytes": 6966,
+    "sha256": "30ea7485d30d20dacacf9aeece07fabba4f8d39081f9eee91ea1e4177407ef4c"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/914619cc843b50d7a2f9/visual.json",
+    "bytes": 2668,
+    "sha256": "ac3164178bef04fccfcf6892f36e4683266d63457a16e3af01ff747c62466088"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/a3598f2e9d9e5dc0bab5/visual.json",
+    "bytes": 2666,
+    "sha256": "42b6f6964ace54c58feb3b7acf81893c1dfceb65a2c15ee8572654e574b1c289"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/ab5092932f0c53babc2f/visual.json",
+    "bytes": 2988,
+    "sha256": "73bc2e70e26403db25c9f2147b6a055a89fa99b6f831d9d507719b663ca7f720"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/b3cd2dca55585fafb324/visual.json",
+    "bytes": 5742,
+    "sha256": "52555a045f41f58f65a32a5fad7fce2e3784f174a3dbaf0633cf646e622da266"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/bb9da44c6ab55ed687c5/visual.json",
+    "bytes": 5718,
+    "sha256": "dde96918acd7f99d2fdabdc83b8153a5adbe1bdbac41c2e388d35d5e0396b85d"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/c6ffe4a7438455efaa56/visual.json",
+    "bytes": 6936,
+    "sha256": "04c51e53d987382d90a6585e6c697d2b2a6ca61462e5cf48c72298ccc0be8677"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/d4c0a6e26d0b5639a8ec/visual.json",
+    "bytes": 2704,
+    "sha256": "ab0b31f9deb09124a44ea552b1a700fd9b174c5729169389d4b5eabc211b276a"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/f4f29d4b895b5a4bbcfe/visual.json",
+    "bytes": 5543,
+    "sha256": "ec8bb7e60ef65182f1e588f316a47af6fb8ba2a43c24b44baa5d65645b620a10"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/fade34acc0ba52afb2d6/visual.json",
+    "bytes": 5735,
+    "sha256": "814335f021d0b5760f0d331066f6187f34376d73f144c079c3235a8a18b5b198"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced5/visuals/fb88d159715e563cbee3/visual.json",
+    "bytes": 5734,
+    "sha256": "482d70eca7e939b0ce91a3a2bd69a18ec277efb79ab0b973fff62e5dc07b0be2"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/page.json",
+    "bytes": 845,
+    "sha256": "50a4a68813c1228913cd58dd501ae3a68d1b1dee7111fc7c9227e0d5b701bebc"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/0c710667e0d74bde881c/visual.json",
+    "bytes": 7004,
+    "sha256": "468f9f192a7a643950f5e678c52ba5f7de5c81232c4cc002be9800e8487834c2"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/1041e78538a24c9aa495/visual.json",
+    "bytes": 13432,
+    "sha256": "e536f92b4b53cd989b132d98dcdd19af7b990f9198ce8b20da961dcbc7b15f82"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/1055afe4ae615cbebd9c/visual.json",
+    "bytes": 2731,
+    "sha256": "6abb9196b656c3423c104814ec9733db62f810c4a549cfa9a391bfe1599cf73c"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/179736bd66b158729d63/visual.json",
+    "bytes": 2666,
+    "sha256": "58cb7964207a721ee06f0c03d06786c8ed6ede07ab19f802b848bd18ff6b8ee5"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/3c320e2b3b0b4ef49d8e/visual.json",
+    "bytes": 7440,
+    "sha256": "37c8afabc936b1444f025ddce2deed3265fdb9f5560b453a3be1eb0af7aa846c"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/4094b73f3fd2525d90a7/visual.json",
+    "bytes": 2668,
+    "sha256": "fe5e0d4a2bb0a79d90409c6458f1011e9950a946352562339ac0decfe72a9cb8"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/568bd5678062546f9f82/visual.json",
+    "bytes": 5718,
+    "sha256": "488e5cd2038a20f5575e916b7eca7efda286558c986f78fdc0a62adab28db5e8"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/63b3c69b00a0541e945a/visual.json",
+    "bytes": 5543,
+    "sha256": "4fe07face5781c826ffea9c83f2bf603c46c0ee0b666d4cc8940496b57ad4c2e"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/6aef34a8abca52b4b5ec/visual.json",
+    "bytes": 5747,
+    "sha256": "3958cf97d4402974842b942d2a79cbbd78f5a954349d5d4ba20db3273c7b19ab"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/6be65c0c7d525f108934/visual.json",
+    "bytes": 2704,
+    "sha256": "477f7af67c456ccd38cdb7b55a1963732d24edcf7292a4c3c42cf742b3b97e8f"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/721de9c5a34d5fddb73e/visual.json",
+    "bytes": 5735,
+    "sha256": "2702c2809295d966000f8b5cfb5c6f3fdc49a27e312b5e66c01cedb47314518c"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/7745b99e64635ad08f16/visual.json",
+    "bytes": 5745,
+    "sha256": "c57f6d04fd1122af5540caac55cd3f0f3fc837ba28a61b2e5ac6c76ec0be6e03"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/7876968b91255ab7a82f/visual.json",
+    "bytes": 5734,
+    "sha256": "1227c1a6abe8bfa7956e83c84079ca3d39cffcc5b897631c1c5af44024ae69c0"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/7e869388d1084057b58f/visual.json",
+    "bytes": 7392,
+    "sha256": "d5c4df4426ee1560316dc6d3a9f648b4262f83109eae7bbf0561bc9b618d80c4"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/850730aaf53540b1b9ec/visual.json",
+    "bytes": 6941,
+    "sha256": "0bb37fcf628a32c208a4c7cd56e04b4514568754d7b276a44c340904a7defd6e"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/95c23c46026b53c39911/visual.json",
+    "bytes": 2998,
+    "sha256": "7bf7a0b6bc2136900c307b5e791fd2cb1c728f1b7f9835e6999a274fc66e80ea"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/97758f5a30844bbbad36/visual.json",
+    "bytes": 7377,
+    "sha256": "ae5735cec8103bf849b4455083f73b87ba1d238c8f6006b3a1f48a270c8f9f8a"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/9f6fef0da03e5f25a039/visual.json",
+    "bytes": 2988,
+    "sha256": "ee035e3809bae0f6a47f4b18ac9115d0a87193a7b136501a1826df39fc1482d8"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/c7abdea61b914b0c9501/visual.json",
+    "bytes": 7406,
+    "sha256": "bcb64e366815f1857a9e0a5d1d30c7cbf2dcd2c66f3b6cb841012975f98d7936"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/c7cc20aa28535f7f9c93/visual.json",
+    "bytes": 6936,
+    "sha256": "e5c001c1aad73aca63e4b8f95633cb1fa43472d7929ea7d610783d1123406eec"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/cac9f9a575335ea9a6ea/visual.json",
+    "bytes": 5718,
+    "sha256": "1e5bbeb85d96524b72b53875bca6f52d702a2a42cb61894be7446c4a48878689"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/ccb3533583ee464390a3/visual.json",
+    "bytes": 6969,
+    "sha256": "bc45d2955576a3f8ab8e26ff59f8d3b59dbc37e91054da7c9cc4b6f60c38b305"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/d72bf4b7ce735a10817a/visual.json",
+    "bytes": 5778,
+    "sha256": "72fe89396153075aafaf04209f3919b87056af02ec17719560afdc939b18f11e"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/f247954221665c408ae5/visual.json",
+    "bytes": 5740,
+    "sha256": "31262ee20472c2b277d3d876564b1499b431a13e9c7d604fa802cba5a304a603"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/ReportSectionAdvanced6/visuals/fb5ff45316db4c4aaa1b/visual.json",
+    "bytes": 6933,
+    "sha256": "47e84d92f9963370717b5744648edd4ed75146272e7d50ee3cab0a3d928f2596"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/tooltip/page.json",
+    "bytes": 1260,
+    "sha256": "d3510280f865565c276beea64b224fedf41f1fe68bae561ddcbbdbac4fcde827"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/tooltip/visuals/0f19003117c15beaa5ef/visual.json",
+    "bytes": 2665,
+    "sha256": "3bfd812e6e812369e831cc25469d45a7c6d047730188094581dcaf757e3f962b"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/tooltip/visuals/443448a22de75ed6a56c/visual.json",
+    "bytes": 6781,
+    "sha256": "ce7474b6fb2ef4c88686651cb86b70e3277b09e9e39727e33312b431e8136aa7"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/tooltip/visuals/58c28118690a5a0595e6/visual.json",
+    "bytes": 2281,
+    "sha256": "4f347586f97b9d449ea5982d5366bbb95856a78074555187b6c3a31e1167d168"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/tooltip/visuals/8cb973c922785430ac6a/visual.json",
+    "bytes": 2989,
+    "sha256": "02b00e6b11f1b000a2cf76e2c980a552571cbd940a7cf5a53f1795b9444b37e1"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/tooltip/visuals/91564e25b086505481c5/visual.json",
+    "bytes": 6735,
+    "sha256": "17c26e16e1a7a0029f93f3fd9a623f065407c7b44b484b443b3fb0cd54c216b7"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/tooltip/visuals/dc979374c7a958ee9cbc/visual.json",
+    "bytes": 11592,
+    "sha256": "c22d7cb29617c004777353587cdf75650c1a5c37265ebdf2f4df05f011c5bd64"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/pages/tooltip/visuals/e6e49de410b750719e85/visual.json",
+    "bytes": 6781,
+    "sha256": "01c83401307804c471a07c3bbe2844944d877a8d0456389d9258ee7af5762888"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/report.json",
+    "bytes": 781,
+    "sha256": "d1c4af10f14118922954b87a327e3534a3f58625d02fc6823d5d64101feff694"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/definition/version.json",
+    "bytes": 154,
+    "sha256": "79141fb0e4ed866953772344c3fc65ec1e5a10beac56fedbad151518396dccfb"
+  },
+  {
+    "path": "powerbi/Zomato_Insights.Report/StaticResources/RegisteredResources/PremiumTheme-7c8ac4a9faa8584fab36.json",
+    "bytes": 651,
+    "sha256": "a06a1237baef090e8f77440b2a0b4af1971d61e27803a0f823125529f93d3596"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4932,
+    "sha256": "b61d2d7a40da923687892858584cb5a195a5ac4990d74a6562bfee20c2ca76b6"
+  },
+  {
+    "path": "reports/figures/dashboard_overview.png",
+    "bytes": 155316,
+    "sha256": "f82a66eadd7d48c263286e37d66efbb6f3dd67d1ffa77ff1560eac3dedb7583a"
+  },
+  {
+    "path": "reports/figures/zomato-1.png",
+    "bytes": 155316,
+    "sha256": "f82a66eadd7d48c263286e37d66efbb6f3dd67d1ffa77ff1560eac3dedb7583a"
+  },
+  {
+    "path": "reports/figures/zomato-2.png",
+    "bytes": 156887,
+    "sha256": "d1d91a184eaf55d845998158f662106f6206b9eda8f2966858b51e93b701a6f0"
+  },
+  {
+    "path": "reports/figures/zomato-3.png",
+    "bytes": 156798,
+    "sha256": "a819adfb5d64e1f9a72ad033654ca97449332d31e66eec387b5a93d1d02bf0f9"
+  },
+  {
+    "path": "reports/figures/zomato-4.png",
+    "bytes": 154652,
+    "sha256": "2702f46818df860b6bc4562d562139dcd477bc60fab779d55db4fe99b2be1e12"
+  },
+  {
+    "path": "reports/figures/zomato-5.png",
+    "bytes": 163781,
+    "sha256": "9a9bb216e0d35ae3862e7090ad639bd0a53f3510afa1835765ec9b320e61db35"
   }
 ]

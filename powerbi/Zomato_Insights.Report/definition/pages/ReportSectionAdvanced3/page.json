@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "ReportSectionAdvanced3",
+  "displayName": "Markets",
+  "displayOption": "FitToPage",
+  "width": 1440,
+  "height": 900,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 6,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "6ebdbe5ac9d640ecad8e",
+      "target": "d48970740d754061af47",
+      "type": "DataFilter"
+    },
+    {
+      "source": "6ebdbe5ac9d640ecad8e",
+      "target": "b26624c2c1dd49a5b47e",
+      "type": "DataFilter"
+    },
+    {
+      "source": "6ebdbe5ac9d640ecad8e",
+      "target": "b63326efa33a4015b1e3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "6ebdbe5ac9d640ecad8e",
+      "target": "4b43f818bddc41deb671",
+      "type": "DataFilter"
+    }
+  ]
+}

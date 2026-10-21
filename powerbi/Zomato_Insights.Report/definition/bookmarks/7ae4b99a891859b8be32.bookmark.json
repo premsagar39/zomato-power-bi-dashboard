@@ -1,0 +1,71 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "name": "7ae4b99a891859b8be32",
+  "displayName": "Hide filters",
+  "options": {
+    "targetVisualNames": [
+      "a540978dbf4f53d0a6a6",
+      "7831eb8b86745f82be32",
+      "4ac8ed62f6814fda8568",
+      "015841dc2e77488aa564",
+      "ca8632046fe546028c42",
+      "2f139ee8cdf14654ab70"
+    ],
+    "suppressData": true,
+    "suppressDisplay": false,
+    "suppressActiveSection": true,
+    "applyOnlyToTargetVisuals": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "ReportSectionAdvanced1",
+    "sections": {
+      "ReportSectionAdvanced1": {
+        "visualContainers": {
+          "a540978dbf4f53d0a6a6": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "7831eb8b86745f82be32": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "4ac8ed62f6814fda8568": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "015841dc2e77488aa564": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "ca8632046fe546028c42": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "2f139ee8cdf14654ab70": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

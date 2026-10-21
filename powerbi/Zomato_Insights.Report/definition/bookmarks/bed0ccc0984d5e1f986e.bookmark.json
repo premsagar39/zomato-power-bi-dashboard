@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "name": "bed0ccc0984d5e1f986e",
+  "displayName": "Show filters",
+  "options": {
+    "targetVisualNames": [
+      "441b7e65e1ea59d18f6a",
+      "779178539a8557b4b080",
+      "abd5da3ff096426896e7",
+      "cb47e5cc96fe46af89a5",
+      "fd5cf15cc57049368678",
+      "01d4892cec65434481e5"
+    ],
+    "suppressData": true,
+    "suppressDisplay": false,
+    "suppressActiveSection": true,
+    "applyOnlyToTargetVisuals": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "ReportSectionAdvanced3",
+    "sections": {
+      "ReportSectionAdvanced3": {
+        "visualContainers": {
+          "441b7e65e1ea59d18f6a": {
+            "singleVisual": {}
+          },
+          "779178539a8557b4b080": {
+            "singleVisual": {}
+          },
+          "abd5da3ff096426896e7": {
+            "singleVisual": {}
+          },
+          "cb47e5cc96fe46af89a5": {
+            "singleVisual": {}
+          },
+          "fd5cf15cc57049368678": {
+            "singleVisual": {}
+          },
+          "01d4892cec65434481e5": {
+            "singleVisual": {}
+          }
+        }
+      }
+    }
+  }
+}

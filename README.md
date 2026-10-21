@@ -1,5 +1,7 @@
 # Zomato Restaurant Insights
 
+![Dashboard overview](reports/figures/dashboard_overview.png)
+
 A five-page Power BI report exploring restaurant coverage, cuisines, service availability, ratings, and India pricing across 9,551 restaurant listings.
 
 **[Download the dashboard](dashboard/Zomato_Insights.pbix)** · **[DAX measures](dax/measures.dax)** · **[Data dictionary](docs/data-dictionary.md)**
@@ -62,3 +64,7 @@ docs/                          Data dictionary and validation notes
 ```
 
 [Report notes](docs/report-notes.md) contain the scope and interpretation details behind the visuals.
+
+## Dashboard controls
+
+The redesigned report adds page navigation, collapsible synchronized filters, metric and ranking views, a contextual tooltip page and a drillthrough detail page. Light and dark themes are included. Display bookmarks preserve filter selections; existing SQL, DAX and imported data are retained. See the [control guide](docs/dashboard-controls.md) and [Power BI source](powerbi/Zomato_Insights.Report).
