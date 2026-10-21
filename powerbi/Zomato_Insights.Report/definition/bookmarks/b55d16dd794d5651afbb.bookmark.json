@@ -4,8 +4,11 @@
   "displayName": "Total Votes",
   "options": {
     "targetVisualNames": [
+      "0536b706019b5320a33d",
       "22b631361c744e4fa286",
-      "9fa67b06e60355ab9076"
+      "7127578840935b738b20",
+      "9fa67b06e60355ab9076",
+      "d9dc8d3dcdc35294b114"
     ],
     "suppressData": true,
     "suppressDisplay": false,
@@ -27,6 +30,27 @@
           },
           "9fa67b06e60355ab9076": {
             "singleVisual": {}
+          },
+          "d9dc8d3dcdc35294b114": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "0536b706019b5320a33d": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "7127578840935b738b20": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
           }
         }
       }

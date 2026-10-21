@@ -65,6 +65,10 @@ docs/                          Data dictionary and validation notes
 
 [Report notes](docs/report-notes.md) contain the scope and interpretation details behind the visuals.
 
+## Dashboard layout
+
+The overview places service availability at the centre, with surrounding KPIs and navigation tiles. Detail pages use vertical KPI stacks and wider comparison tables.
+
 ## Dashboard controls
 
 The redesigned report adds page navigation, collapsible synchronized filters, metric and ranking views, a contextual tooltip page and a drillthrough detail page. Light and dark themes are included. Display bookmarks preserve filter selections; existing SQL, DAX and imported data are retained. See the [control guide](docs/dashboard-controls.md) and [Power BI source](powerbi/Zomato_Insights.Report).
