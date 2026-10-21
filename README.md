@@ -1,4 +1,4 @@
-# Zomato Restaurant Insights | Power BI
+# Zomato Restaurant Insights
 
 A five-page Power BI report exploring restaurant coverage, cuisines, service availability, ratings, and India pricing across 9,551 restaurant listings.
 
@@ -60,3 +60,5 @@ data/RestaurantCuisine.csv      Restaurant–cuisine bridge
 dax/measures.dax                43 measure definitions
 docs/                          Data dictionary and validation notes
 ```
+
+[Report notes](docs/report-notes.md) contain the scope and interpretation details behind the visuals.

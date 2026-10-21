@@ -1,0 +1,52 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 71,
+    "sha256": "33e58e4dd9db42fb56e49d6ee03dc816139404622bcd211e3c381fb5e24450c5"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 74,
+    "sha256": "fa10bc19f9069781adf24bf9f11730a4099ff1cbbbd0f49e03bf376a627c71d3"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4438,
+    "sha256": "5ca24523afd6013ae6ed3696aae7f357563b94d9ffcb79a1c542dcd37527d42b"
+  },
+  {
+    "path": "dashboard/Zomato_Insights.pbix",
+    "bytes": 460947,
+    "sha256": "cd6978a0593e80ce07fc36cd9b7b36b58a6a13f793d95014ae4ad1936bd901d6"
+  },
+  {
+    "path": "data/RestaurantCuisine.csv",
+    "bytes": 357558,
+    "sha256": "7ee1bb4bd4301f18507a114273148f123535d5876b2fdc7e1100e2be1e5d5772"
+  },
+  {
+    "path": "data/Restaurants.csv",
+    "bytes": 1505481,
+    "sha256": "c4dab286877941ef0e3ec71328663a7dbed8496e8e5bfabbaaba3063d04f3da5"
+  },
+  {
+    "path": "dax/measures.dax",
+    "bytes": 4498,
+    "sha256": "3e992f31c79eacb4d3255cc22387296fe53236a65be3362a3153997e8e97eebc"
+  },
+  {
+    "path": "docs/data-dictionary.md",
+    "bytes": 2101,
+    "sha256": "c01b5d7aff37249efb44a6ceb4ab034c7b29ca944d16c22de706f939b8e2aea4"
+  },
+  {
+    "path": "docs/report-notes.md",
+    "bytes": 581,
+    "sha256": "8db6f0f2cf067ba654f59f1f6b1780e96d6cc219c2880cd27666b52b7be38ef8"
+  },
+  {
+    "path": "docs/validation.md",
+    "bytes": 1819,
+    "sha256": "530150341476ca92b43b7fb9cba04026e8b6a8c07365b84dd1f9e0a210cf3efd"
+  }
+]
